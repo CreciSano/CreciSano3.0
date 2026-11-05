@@ -1,0 +1,924 @@
+{
+  "users": [
+    {
+      "id": "user-demo-crecisano",
+      "name": "Sofía Navarro",
+      "email": "sofia@crecisano.com",
+      "passwordHash": "085d41855d2aa8568eb14dfda212981b4b7e20304997d473193c479cb1fe2213",
+      "preferences": [
+        "Recetas saludables",
+        "Preparaciones rápidas"
+      ],
+      "pantry": [
+        "Aguacate",
+        "Huevo",
+        "Pan integral",
+        "Limón",
+        "Quinoa",
+        "Espinaca"
+      ],
+      "createdAt": "2026-10-15T10:00:00.000Z"
+    }
+  ],
+  "sessions": {},
+  "recipes": [
+    {
+      "id": "bowl-quinoa-camote",
+      "title": "Bowl nutritivo de quinoa, camote asado y aguacate",
+      "description": "Una comida completa y balanceada con carbohidratos complejos, proteína vegetal de garbanzos y grasas saludables.",
+      "image": "/src/assets/images/recipe_quinoa_bowl_1793832461748.jpg",
+      "prepTimeMinutes": 25,
+      "difficulty": "Fácil",
+      "servings": 2,
+      "categories": [
+        "Almuerzos",
+        "Recetas saludables",
+        "Loncheras"
+      ],
+      "ingredients": [
+        {
+          "name": "Quinoa",
+          "amount": "1 taza",
+          "numericAmount": 1,
+          "unit": "taza"
+        },
+        {
+          "name": "Camote",
+          "amount": "1 unidad mediana",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Garbanzos",
+          "amount": "1 taza cocidos",
+          "numericAmount": 1,
+          "unit": "taza"
+        },
+        {
+          "name": "Aguacate",
+          "amount": "1 unidad",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Espinaca",
+          "amount": "2 tazas frescas",
+          "numericAmount": 2,
+          "unit": "tazas"
+        },
+        {
+          "name": "Cilantro",
+          "amount": "1/4 taza picado",
+          "numericAmount": 0.25,
+          "unit": "taza"
+        },
+        {
+          "name": "Limón",
+          "amount": "1 unidad (jugo)",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Aceite de oliva",
+          "amount": "2 cucharadas",
+          "numericAmount": 2,
+          "unit": "cdas"
+        }
+      ],
+      "steps": [
+        "Lava bien la quinoa bajo el grifo y cocínala en 2 tazas de agua con una pizca de sal durante 15 minutos hasta que absorba el líquido.",
+        "Corta el camote en cubos pequeños, mézclalo con 1 cucharada de aceite de oliva y ásalo en sartén tapada o horno a 200 °C por 15 minutos.",
+        "Saltea los garbanzos cocidos durante 4 minutos hasta que queden ligeramente dorados.",
+        "Sirve en dos tazones una base de espinaca y quinoa tibia, añade el camote, los garbanzos y el aguacate en láminas.",
+        "Aliña con jugo de limón, el resto del aceite de oliva y cilantro fresco picado."
+      ],
+      "nutrition": {
+        "calories": 490,
+        "protein": "16 g",
+        "carbs": "58 g",
+        "fats": "22 g",
+        "fiber": "13 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "tostada-aguacate-huevo",
+      "title": "Tostada integral con aguacate y huevo pochado",
+      "description": "Desayuno energético listo en 10 minutos, ideal para aprovechar pan integral, aguacate maduro y huevos.",
+      "image": "/src/assets/images/recipe_avocado_toast_1793832462881.jpg",
+      "prepTimeMinutes": 10,
+      "difficulty": "Fácil",
+      "servings": 1,
+      "categories": [
+        "Desayunos",
+        "Preparaciones rápidas",
+        "Recetas saludables"
+      ],
+      "ingredients": [
+        {
+          "name": "Pan integral",
+          "amount": "2 rebanadas",
+          "numericAmount": 2,
+          "unit": "rebanadas"
+        },
+        {
+          "name": "Aguacate",
+          "amount": "1/2 unidad",
+          "numericAmount": 0.5,
+          "unit": "unidad"
+        },
+        {
+          "name": "Huevo",
+          "amount": "1 unidad",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Limón",
+          "amount": "1/2 unidad",
+          "numericAmount": 0.5,
+          "unit": "unidad"
+        },
+        {
+          "name": "Semillas de sésamo",
+          "amount": "1 cucharadita",
+          "numericAmount": 1,
+          "unit": "cdita"
+        }
+      ],
+      "steps": [
+        "Tuesta las rebanadas de pan integral hasta que estén crujientes.",
+        "Tritura el aguacate con un tenedor junto con unas gotas de jugo de limón y una pizca de sal.",
+        "Hierve agua en una olla pequeña, baja el fuego y cocina el huevo sin cáscara durante 3 minutos para lograr un pochado suave.",
+        "Unta el aguacate sobre el pan, coloca el huevo encima y espolvorea semillas de sésamo."
+      ],
+      "nutrition": {
+        "calories": 360,
+        "protein": "14 g",
+        "carbs": "32 g",
+        "fats": "20 g",
+        "fiber": "8 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "salmon-hierbas-vegetales",
+      "title": "Salmón a la plancha con brócoli y limón",
+      "description": "Cena ligera rica en omega-3 y vegetales verdes, lista en menos de 20 minutos en un solo sartén.",
+      "image": "/src/assets/images/recipe_salmon_greens_1793832464854.jpg",
+      "prepTimeMinutes": 18,
+      "difficulty": "Fácil",
+      "servings": 2,
+      "categories": [
+        "Cenas",
+        "Recetas saludables",
+        "Preparaciones rápidas"
+      ],
+      "ingredients": [
+        {
+          "name": "Salmón",
+          "amount": "2 filetes (300 g)",
+          "numericAmount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "Brócoli",
+          "amount": "2 tazas en floretes",
+          "numericAmount": 2,
+          "unit": "tazas"
+        },
+        {
+          "name": "Ajo",
+          "amount": "2 dientes picados",
+          "numericAmount": 2,
+          "unit": "dientes"
+        },
+        {
+          "name": "Limón",
+          "amount": "1 unidad",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Aceite de oliva",
+          "amount": "1 cucharada",
+          "numericAmount": 1,
+          "unit": "cda"
+        }
+      ],
+      "steps": [
+        "Sazona los filetes de salmón con sal, pimienta y ajo picado.",
+        "Calienta el aceite de oliva en una sartén antiadherente a fuego medio y cocina el salmón 4 minutos por cada lado.",
+        "En la misma sartén, saltea los floretes de brócoli con un chorrito de agua tapados durante 5 minutos hasta que estén tiernos y verdes.",
+        "Sirve caliente con rodajas de limón fresco."
+      ],
+      "nutrition": {
+        "calories": 420,
+        "protein": "34 g",
+        "carbs": "10 g",
+        "fats": "27 g",
+        "fiber": "4 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "parfait-chia-frutos-rojos",
+      "title": "Parfait de chía, yogur griego y frutos rojos",
+      "description": "Postre o desayuno fresco sin azúcares añadidos, lleno de fibra, antioxidantes y probióticos.",
+      "image": "/src/assets/images/recipe_berry_chia_parfait_1793832463070.jpg",
+      "prepTimeMinutes": 10,
+      "difficulty": "Fácil",
+      "servings": 2,
+      "categories": [
+        "Postres",
+        "Desayunos",
+        "Preparaciones rápidas",
+        "Recetas saludables"
+      ],
+      "ingredients": [
+        {
+          "name": "Semillas de chía",
+          "amount": "3 cucharadas",
+          "numericAmount": 3,
+          "unit": "cdas"
+        },
+        {
+          "name": "Leche",
+          "amount": "1 taza (vegetal o descremada)",
+          "numericAmount": 1,
+          "unit": "taza"
+        },
+        {
+          "name": "Yogur griego",
+          "amount": "1 taza natural",
+          "numericAmount": 1,
+          "unit": "taza"
+        },
+        {
+          "name": "Fresas",
+          "amount": "1 taza picadas",
+          "numericAmount": 1,
+          "unit": "taza"
+        },
+        {
+          "name": "Arándanos",
+          "amount": "1/2 taza",
+          "numericAmount": 0.5,
+          "unit": "taza"
+        },
+        {
+          "name": "Avena",
+          "amount": "1/4 taza tostada",
+          "numericAmount": 0.25,
+          "unit": "taza"
+        },
+        {
+          "name": "Miel",
+          "amount": "1 cucharada",
+          "numericAmount": 1,
+          "unit": "cda"
+        }
+      ],
+      "steps": [
+        "Mezcla las semillas de chía con la leche y deja reposar 10 minutos (o toda la noche) hasta que espese.",
+        "En dos vasos o tazones, coloca una capa de pudín de chía y encima una capa de yogur griego.",
+        "Añade las fresas picadas, los arándanos y la avena tostada.",
+        "Finaliza con un hilo de miel natural."
+      ],
+      "nutrition": {
+        "calories": 295,
+        "protein": "15 g",
+        "carbs": "36 g",
+        "fats": "10 g",
+        "fiber": "9 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "ensalada-mediterranea-garbanzos",
+      "title": "Ensalada mediterránea de quinoa, tomate y garbanzos",
+      "description": "Fresca, económica y perfecta para llevar en lonchera. Se conserva muy bien hasta 3 días en refrigeración.",
+      "image": "/src/assets/images/hero_fresh_kitchen_1793832462792.jpg",
+      "prepTimeMinutes": 15,
+      "difficulty": "Fácil",
+      "servings": 2,
+      "categories": [
+        "Loncheras",
+        "Almuerzos",
+        "Recetas económicas",
+        "Recetas saludables"
+      ],
+      "ingredients": [
+        {
+          "name": "Quinoa",
+          "amount": "1 taza cocida",
+          "numericAmount": 1,
+          "unit": "taza"
+        },
+        {
+          "name": "Garbanzos",
+          "amount": "1 taza cocidos",
+          "numericAmount": 1,
+          "unit": "taza"
+        },
+        {
+          "name": "Tomate",
+          "amount": "2 unidades picadas",
+          "numericAmount": 2,
+          "unit": "unidades"
+        },
+        {
+          "name": "Pepino",
+          "amount": "1/2 unidad en cubos",
+          "numericAmount": 0.5,
+          "unit": "unidad"
+        },
+        {
+          "name": "Queso fresco",
+          "amount": "80 g desmenuzado",
+          "numericAmount": 80,
+          "unit": "g"
+        },
+        {
+          "name": "Limón",
+          "amount": "1 unidad",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Aceite de oliva",
+          "amount": "2 cucharadas",
+          "numericAmount": 2,
+          "unit": "cdas"
+        }
+      ],
+      "steps": [
+        "En un bol amplio, combina la quinoa cocida fría o tibia con los garbanzos escurridos.",
+        "Agrega el tomate y el pepino cortados en cubos pequeños.",
+        "Incorpora el queso fresco desmenuzado.",
+        "Aliña con aceite de oliva, jugo de limón, sal y orégano al gusto."
+      ],
+      "nutrition": {
+        "calories": 410,
+        "protein": "18 g",
+        "carbs": "46 g",
+        "fats": "17 g",
+        "fiber": "10 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "tortilla-espinaca-huevo",
+      "title": "Tortilla esponjosa de espinaca, tomate y queso",
+      "description": "Receta económica y rendidora para aprovechar verduras de la nevera en menos de 12 minutos.",
+      "image": "/src/assets/images/recipe_avocado_toast_1793832462881.jpg",
+      "prepTimeMinutes": 12,
+      "difficulty": "Fácil",
+      "servings": 2,
+      "categories": [
+        "Desayunos",
+        "Cenas",
+        "Recetas económicas",
+        "Preparaciones rápidas"
+      ],
+      "ingredients": [
+        {
+          "name": "Huevo",
+          "amount": "4 unidades",
+          "numericAmount": 4,
+          "unit": "unidades"
+        },
+        {
+          "name": "Espinaca",
+          "amount": "2 tazas lavadas",
+          "numericAmount": 2,
+          "unit": "tazas"
+        },
+        {
+          "name": "Tomate",
+          "amount": "1 unidad picada",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Cebolla",
+          "amount": "1/4 unidad picada",
+          "numericAmount": 0.25,
+          "unit": "unidad"
+        },
+        {
+          "name": "Queso fresco",
+          "amount": "50 g",
+          "numericAmount": 50,
+          "unit": "g"
+        },
+        {
+          "name": "Aceite de oliva",
+          "amount": "1 cucharada",
+          "numericAmount": 1,
+          "unit": "cda"
+        }
+      ],
+      "steps": [
+        "Sofríe la cebolla y el tomate en una sartén con aceite de oliva durante 3 minutos.",
+        "Añade las hojas de espinaca y cocina 1 minuto hasta que reduzcan su volumen.",
+        "Bate los huevos con sal y pimienta, viértelos en la sartén y reparte el queso fresco por encima.",
+        "Cocina a fuego bajo tapado por 5 minutos hasta que cuaje."
+      ],
+      "nutrition": {
+        "calories": 280,
+        "protein": "19 g",
+        "carbs": "6 g",
+        "fats": "20 g",
+        "fiber": "2 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "arroz-salteado-pollo-verduras",
+      "title": "Arroz integral salteado con pollo y vegetales",
+      "description": "Ideal para aprovechar arroz cocido del día anterior y verduras variadas en un plato único.",
+      "image": "/src/assets/images/recipe_quinoa_bowl_1793832461748.jpg",
+      "prepTimeMinutes": 20,
+      "difficulty": "Fácil",
+      "servings": 3,
+      "categories": [
+        "Almuerzos",
+        "Loncheras",
+        "Recetas económicas"
+      ],
+      "ingredients": [
+        {
+          "name": "Arroz integral",
+          "amount": "2 tazas cocidas",
+          "numericAmount": 2,
+          "unit": "tazas"
+        },
+        {
+          "name": "Pechuga de pollo",
+          "amount": "250 g en cubos",
+          "numericAmount": 250,
+          "unit": "g"
+        },
+        {
+          "name": "Zanahoria",
+          "amount": "1 unidad en cubitos",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Brócoli",
+          "amount": "1 taza picada",
+          "numericAmount": 1,
+          "unit": "taza"
+        },
+        {
+          "name": "Pimiento",
+          "amount": "1/2 unidad en tiras",
+          "numericAmount": 0.5,
+          "unit": "unidad"
+        },
+        {
+          "name": "Ajo",
+          "amount": "2 dientes",
+          "numericAmount": 2,
+          "unit": "dientes"
+        },
+        {
+          "name": "Aceite de oliva",
+          "amount": "2 cucharadas",
+          "numericAmount": 2,
+          "unit": "cdas"
+        }
+      ],
+      "steps": [
+        "Dora los cubos de pechuga de pollo en una sartén grande o wok con 1 cucharada de aceite de oliva y ajo picado.",
+        "Retira el pollo y en la misma sartén saltea la zanahoria, el brócoli y el pimiento durante 5 minutos.",
+        "Incorpora el arroz integral cocido y el pollo, saltea todo junto 3 minutos más ajustando de sal."
+      ],
+      "nutrition": {
+        "calories": 430,
+        "protein": "28 g",
+        "carbs": "48 g",
+        "fats": "13 g",
+        "fiber": "6 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "wraps-atun-aguacate",
+      "title": "Wraps rápidos de atún, aguacate y espinaca",
+      "description": "Lonchera práctica sin necesidad de cocción, lista en 8 minutos con ingredientes básicos de despensa.",
+      "image": "/src/assets/images/hero_fresh_kitchen_1793832462792.jpg",
+      "prepTimeMinutes": 8,
+      "difficulty": "Fácil",
+      "servings": 2,
+      "categories": [
+        "Loncheras",
+        "Preparaciones rápidas",
+        "Cenas"
+      ],
+      "ingredients": [
+        {
+          "name": "Tortilla de maíz",
+          "amount": "4 unidades grandes",
+          "numericAmount": 4,
+          "unit": "unidades"
+        },
+        {
+          "name": "Atún",
+          "amount": "1 lata al natural escurrida",
+          "numericAmount": 1,
+          "unit": "lata"
+        },
+        {
+          "name": "Aguacate",
+          "amount": "1 unidad",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Espinaca",
+          "amount": "1 taza",
+          "numericAmount": 1,
+          "unit": "taza"
+        },
+        {
+          "name": "Tomate",
+          "amount": "1 unidad en rodajas",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Limón",
+          "amount": "1/2 unidad",
+          "numericAmount": 0.5,
+          "unit": "unidad"
+        }
+      ],
+      "steps": [
+        "Mezcla el atún escurrido con el aguacate machacado y el jugo de limón.",
+        "Calienta ligeramente las tortillas en un comal para que sean flexibles.",
+        "Coloca hojas de espinaca, rodajas de tomate y la mezcla de atún en el centro.",
+        "Enrolla firmemente y corta por la mitad."
+      ],
+      "nutrition": {
+        "calories": 350,
+        "protein": "22 g",
+        "carbs": "34 g",
+        "fats": "14 g",
+        "fiber": "7 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "guiso-lentejas-vegetales",
+      "title": "Guiso casero de lentejas con zanahoria y calabacín",
+      "description": "Reconfortante, muy económico y alto en proteína vegetal y hierro.",
+      "image": "/src/assets/images/recipe_quinoa_bowl_1793832461748.jpg",
+      "prepTimeMinutes": 30,
+      "difficulty": "Media",
+      "servings": 4,
+      "categories": [
+        "Almuerzos",
+        "Recetas económicas",
+        "Recetas saludables"
+      ],
+      "ingredients": [
+        {
+          "name": "Lentejas",
+          "amount": "1.5 tazas secas",
+          "numericAmount": 1.5,
+          "unit": "tazas"
+        },
+        {
+          "name": "Zanahoria",
+          "amount": "2 unidades en rodajas",
+          "numericAmount": 2,
+          "unit": "unidades"
+        },
+        {
+          "name": "Calabacín",
+          "amount": "1 unidad en cubos",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Tomate",
+          "amount": "2 unidades ralladas",
+          "numericAmount": 2,
+          "unit": "unidades"
+        },
+        {
+          "name": "Cebolla",
+          "amount": "1 unidad picada",
+          "numericAmount": 1,
+          "unit": "unidad"
+        },
+        {
+          "name": "Ajo",
+          "amount": "2 dientes",
+          "numericAmount": 2,
+          "unit": "dientes"
+        },
+        {
+          "name": "Aceite de oliva",
+          "amount": "2 cucharadas",
+          "numericAmount": 2,
+          "unit": "cdas"
+        }
+      ],
+      "steps": [
+        "Sofríe la cebolla, el ajo y el tomate rallado en una olla con aceite de oliva durante 5 minutos.",
+        "Añade las lentejas lavadas, la zanahoria y 4 tazas de agua o caldo.",
+        "Cocina a fuego medio durante 20 minutos.",
+        "Incorpora el calabacín en cubos y cocina 8 minutos más hasta que todo esté tierno."
+      ],
+      "nutrition": {
+        "calories": 340,
+        "protein": "18 g",
+        "carbs": "52 g",
+        "fats": "7 g",
+        "fiber": "15 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "pasta-integral-tofu-espinaca",
+      "title": "Pasta integral con tofu salteado, ajo y espinaca",
+      "description": "Cena vegetal rápida con salsa ligera de aceite de oliva, ajo dorado y espinacas frescas.",
+      "image": "/src/assets/images/recipe_salmon_greens_1793832464854.jpg",
+      "prepTimeMinutes": 18,
+      "difficulty": "Fácil",
+      "servings": 2,
+      "categories": [
+        "Cenas",
+        "Recetas saludables",
+        "Preparaciones rápidas"
+      ],
+      "ingredients": [
+        {
+          "name": "Pasta integral",
+          "amount": "180 g",
+          "numericAmount": 180,
+          "unit": "g"
+        },
+        {
+          "name": "Tofu",
+          "amount": "200 g firme en cubos",
+          "numericAmount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "Espinaca",
+          "amount": "3 tazas",
+          "numericAmount": 3,
+          "unit": "tazas"
+        },
+        {
+          "name": "Ajo",
+          "amount": "3 dientes laminados",
+          "numericAmount": 3,
+          "unit": "dientes"
+        },
+        {
+          "name": "Aceite de oliva",
+          "amount": "2 cucharadas",
+          "numericAmount": 2,
+          "unit": "cdas"
+        },
+        {
+          "name": "Limón",
+          "amount": "1/2 unidad (ralladura y jugo)",
+          "numericAmount": 0.5,
+          "unit": "unidad"
+        }
+      ],
+      "steps": [
+        "Cuece la pasta integral en agua con sal según las instrucciones del paquete.",
+        "Mientras tanto, dora los cubos de tofu en una sartén con 1 cucharada de aceite de oliva hasta que queden crujientes.",
+        "Añade el resto del aceite, el ajo laminado y las espinacas; saltea 2 minutos.",
+        "Mezcla con la pasta escurrida y un toque de jugo de limón."
+      ],
+      "nutrition": {
+        "calories": 445,
+        "protein": "21 g",
+        "carbs": "54 g",
+        "fats": "16 g",
+        "fiber": "9 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "galletas-avena-platano-cacao",
+      "title": "Galletas saludables de avena, plátano y cacao",
+      "description": "Postre o snack de lonchera con solo 4 ingredientes, sin harina refinada ni azúcar añadido.",
+      "image": "/src/assets/images/recipe_berry_chia_parfait_1793832463070.jpg",
+      "prepTimeMinutes": 18,
+      "difficulty": "Fácil",
+      "servings": 8,
+      "categories": [
+        "Postres",
+        "Loncheras",
+        "Recetas económicas",
+        "Preparaciones rápidas"
+      ],
+      "ingredients": [
+        {
+          "name": "Plátano",
+          "amount": "2 unidades maduras",
+          "numericAmount": 2,
+          "unit": "unidades"
+        },
+        {
+          "name": "Avena",
+          "amount": "1.5 tazas en hojuelas",
+          "numericAmount": 1.5,
+          "unit": "tazas"
+        },
+        {
+          "name": "Cacao en polvo",
+          "amount": "2 cucharadas sin azúcar",
+          "numericAmount": 2,
+          "unit": "cdas"
+        },
+        {
+          "name": "Canela",
+          "amount": "1/2 cucharadita",
+          "numericAmount": 0.5,
+          "unit": "cdita"
+        }
+      ],
+      "steps": [
+        "Precalienta el horno a 180 °C (o usa freidora de aire a 170 °C).",
+        "Tritura los plátanos maduros en un bol hasta obtener un puré.",
+        "Mezcla con la avena, el cacao en polvo y la canela hasta formar una masa húmeda.",
+        "Forma 8 bolitas aplastadas sobre papel encerado y hornea durante 12 minutos."
+      ],
+      "nutrition": {
+        "calories": 115,
+        "protein": "3 g",
+        "carbs": "22 g",
+        "fats": "2 g",
+        "fiber": "3 g"
+      },
+      "authorName": "Equipo CreciSano"
+    },
+    {
+      "id": "manzana-asada-canela-yogur",
+      "title": "Manzanas asadas con canela, avena y yogur",
+      "description": "Postre tibio y reconfortante perfecto para aprovechar manzanas de la despensa.",
+      "image": "/src/assets/images/recipe_berry_chia_parfait_1793832463070.jpg",
+      "prepTimeMinutes": 20,
+      "difficulty": "Fácil",
+      "servings": 2,
+      "categories": [
+        "Postres",
+        "Recetas saludables",
+        "Recetas económicas"
+      ],
+      "ingredients": [
+        {
+          "name": "Manzana",
+          "amount": "2 unidades",
+          "numericAmount": 2,
+          "unit": "unidades"
+        },
+        {
+          "name": "Avena",
+          "amount": "3 cucharadas",
+          "numericAmount": 3,
+          "unit": "cdas"
+        },
+        {
+          "name": "Canela",
+          "amount": "1 cucharadita",
+          "numericAmount": 1,
+          "unit": "cdita"
+        },
+        {
+          "name": "Miel",
+          "amount": "1 cucharada",
+          "numericAmount": 1,
+          "unit": "cda"
+        },
+        {
+          "name": "Yogur griego",
+          "amount": "1/2 taza para acompañar",
+          "numericAmount": 0.5,
+          "unit": "taza"
+        }
+      ],
+      "steps": [
+        "Corta las manzanas por la mitad y retira el corazón con una cucharita.",
+        "Mezcla la avena con la canela y la miel, y rellena el centro de cada mitad.",
+        "Hornea o cocina en sartén tapada a fuego suave durante 15 minutos hasta que la manzana esté tierna.",
+        "Sirve tibias acompañadas de yogur griego."
+      ],
+      "nutrition": {
+        "calories": 230,
+        "protein": "7 g",
+        "carbs": "44 g",
+        "fats": "3 g",
+        "fiber": "6 g"
+      },
+      "authorName": "Equipo CreciSano"
+    }
+  ],
+  "favorites": {
+    "user-demo-crecisano": [
+      "bowl-quinoa-camote",
+      "tostada-aguacate-huevo"
+    ]
+  },
+  "mealPlans": {
+    "user-demo-crecisano": {
+      "Lunes": {
+        "Desayuno": "tostada-aguacate-huevo",
+        "Almuerzo": "bowl-quinoa-camote",
+        "Cena": null
+      },
+      "Martes": {
+        "Desayuno": null,
+        "Almuerzo": null,
+        "Cena": "salmon-hierbas-vegetales"
+      },
+      "Miércoles": {
+        "Desayuno": null,
+        "Almuerzo": "ensalada-mediterranea-garbanzos",
+        "Cena": null
+      },
+      "Jueves": {
+        "Desayuno": null,
+        "Almuerzo": null,
+        "Cena": null
+      },
+      "Viernes": {
+        "Desayuno": null,
+        "Almuerzo": null,
+        "Cena": null
+      },
+      "Sábado": {
+        "Desayuno": null,
+        "Almuerzo": null,
+        "Cena": null
+      },
+      "Domingo": {
+        "Desayuno": null,
+        "Almuerzo": null,
+        "Cena": null
+      }
+    }
+  },
+  "communityPosts": [
+    {
+      "id": "post-1",
+      "recipeId": "bowl-quinoa-camote",
+      "authorName": "Camila Mendoza",
+      "title": "Bowl de quinoa con camote asado para toda la semana",
+      "story": "Tenía medio camote, un aguacate maduro y garbanzos cocidos en la nevera. Lo preparé en 25 minutos y me alcanzó para el almuerzo de hoy y la lonchera de mañana.",
+      "image": "/src/assets/images/recipe_quinoa_bowl_1793832461748.jpg",
+      "category": "Almuerzos",
+      "prepTimeMinutes": 25,
+      "likes": 18,
+      "likedBy": [],
+      "comments": [
+        {
+          "id": "c-1",
+          "authorName": "Mateo Ríos",
+          "text": "Le agregué un poco de cilantro extra y quedó increíble.",
+          "createdAt": "2026-11-01T14:20:00.000Z"
+        }
+      ],
+      "createdAt": "2026-11-01T12:00:00.000Z"
+    },
+    {
+      "id": "post-2",
+      "recipeId": "galletas-avena-platano-cacao",
+      "authorName": "Valentina Suárez",
+      "title": "Galletas de plátano maduro sin desperdicio",
+      "story": "Tenía dos plátanos muy maduros que nadie se iba a comer. Con avena y cacao salieron 8 galletas suaves perfectas para la merienda.",
+      "image": "/src/assets/images/recipe_berry_chia_parfait_1793832463070.jpg",
+      "category": "Postres",
+      "prepTimeMinutes": 18,
+      "likes": 24,
+      "likedBy": [],
+      "comments": [],
+      "createdAt": "2026-11-02T16:45:00.000Z"
+    },
+    {
+      "id": "post-3",
+      "recipeId": "tortilla-espinaca-huevo",
+      "authorName": "Andrés Herrera",
+      "title": "Cena rápida de 12 minutos con espinaca y huevo",
+      "story": "Cuando llego cansado del trabajo, esta tortilla me salva la noche sin pedir comida a domicilio.",
+      "image": "/src/assets/images/recipe_avocado_toast_1793832462881.jpg",
+      "category": "Cenas",
+      "prepTimeMinutes": 12,
+      "likes": 15,
+      "likedBy": [],
+      "comments": [],
+      "createdAt": "2026-11-03T19:30:00.000Z"
+    }
+  ]
+}
